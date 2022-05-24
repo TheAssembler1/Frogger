@@ -1,0 +1,55 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Sprites/Foreground/3.png" type="Texture" id=1]
+[ext_resource path="res://Sprites/Foreground/1.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Foreground/2.png" type="Texture" id=3]
+
+[sub_resource type="TileSet" id=1]
+0/name = "1.png 0"
+0/texture = ExtResource( 2 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 32, 24 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0
+1/name = "2.png 1"
+1/texture = ExtResource( 3 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 8, 24 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape_one_way = false
+1/shape_one_way_margin = 0.0
+1/shapes = [  ]
+1/z_index = 0
+2/name = "3.png 2"
+2/texture = ExtResource( 1 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 16, 16 )
+2/tile_mode = 0
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape_one_way = false
+2/shape_one_way_margin = 0.0
+2/shapes = [  ]
+2/z_index = 0
+
+[node name="Foreground" type="TileMap"]
+tile_set = SubResource( 1 )
+cell_size = Vector2( 8, 8 )
+format = 1
+tile_data = PoolIntArray( 196608, 0, 0, 196612, 1, 0, 196613, 1, 0, 196614, 0, 0, 196618, 1, 0, 196619, 1, 0, 196620, 0, 0, 196624, 1, 0, 196625, 1, 0, 196626, 0, 0, 196630, 1, 0, 196631, 1, 0, 196632, 0, 0, 1048576, 2, 0, 1048578, 2, 0, 1048580, 2, 0, 1048582, 2, 0, 1048584, 2, 0, 1048586, 2, 0, 1048588, 2, 0, 1048590, 2, 0, 1048592, 2, 0, 1048594, 2, 0, 1048596, 2, 0, 1048598, 2, 0, 1048600, 2, 0, 1048602, 2, 0, 1835008, 2, 0, 1835010, 2, 0, 1835012, 2, 0, 1835014, 2, 0, 1835016, 2, 0, 1835018, 2, 0, 1835020, 2, 0, 1835022, 2, 0, 1835024, 2, 0, 1835026, 2, 0, 1835028, 2, 0, 1835030, 2, 0, 1835032, 2, 0, 1835034, 2, 0 )
